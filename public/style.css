@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://phonoteka.org/uploads/posts/2021-07/1625568896_12-phonoteka-org-p-khatsune-miku-na-rabochii-stol-krasivo-obo-13.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dayBlock {
+    background-image: url('https://avatars.mds.yandex.net/i?id=4249b34b35d2e59960061ae9fc750632fed8783a-9030085-images-thumbs&n=13');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+    margin: 20px 0;
+    background-size: cover;
+    background-position: right;
+    border-radius: 20px;
+}
+
+.dayBlock h2 {
+    background-color: aquamarine;
+    color: black;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.lesson {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.lesson .lessonSubject {
+    border-bottom: 1px dotted black;
+    width: 70%
+}
+
+.schedule {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 800px;
+}
+
+.header hr {
+    margin: 10px 0;
+}
+
+.header h1{
+    color: #00fff3;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.active{
+    transform: scale(1.05);
+}
+.active h2{
+    background-color: #ff8d8d;
+}
