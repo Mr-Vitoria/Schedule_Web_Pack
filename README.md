@@ -1,2 +1,2 @@
 # Schedule_Web_Pack
-![Image alt](https://github.com/Vit-Vi/Schedule_Web_Pack/blob/master/images/tt.png)
+![Image alt](https://github.com/Vit-Vi/Images/blob/master/Schedule_Web_Pack/tt.png)
